@@ -1,0 +1,178 @@
+*{
+ margin: 0;
+ padding: 0;
+    box-sizing: border-box;
+}
+
+
+  body{
+    overflow: hidden;
+    /* width: 1620px;
+    height: 1000px;
+   background-image: url(../images/Untitled.png);
+   background-repeat: no-repeat; */
+  }
+
+.animation{
+width:100px;
+height: 100px;
+top: 60px;
+position: absolute;
+background-image: url(../images/E-Bike_Fahrrad_ebike_Dolce_Vita_by_Canellini_pedalunterstütztes_Fahrrad_elektrisches_Citybike_CTB_Damen_Vintage_Retro_Aluminium_schwarz-removebg-preview.png);
+background-size: cover;
+animation-name: item1;
+animation-fill-mode: forwards;
+animation-duration: 2s;
+animation-play-state: running;
+animation-timing-function: linear;
+animation-delay: 1s;
+
+
+
+}
+@keyframes item1{
+    0%{
+      right:1410px;
+    }
+    
+    100%{
+        right:0px;
+   
+    
+}
+}
+.animation1{
+    width:100px;
+    height: 100px;
+    top: 200px;
+    left: 1620px;
+    position: absolute;
+    background-image: url(../images/cross.png);
+    background-size: cover;
+    animation-name: item2;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    animation-duration: 2s
+    
+
+    
+    
+    }
+    @keyframes item2{
+        0%{
+          
+    
+        }
+        100%{
+           left: 0px;}
+        }
+    .animation2{
+        width:100px;
+        height: 100px;
+        top: 340px;
+        position: absolute;
+        background-image: url(../images/E-Bike_Fahrrad_ebike_Dolce_Vita_by_Canellini_pedalunterstütztes_Fahrrad_elektrisches_Citybike_CTB_Damen_Vintage_Retro_Aluminium_schwarz-removebg-preview.png);
+        background-size: cover;
+        animation-name: item3;
+        animation-play-state: running;
+        animation-timing-function: linear;
+        animation-delay: 5s;
+       animation-fill-mode: forwards;
+        animation-duration: 2s
+        
+        
+        
+        }
+        @keyframes item3{
+            0%{
+                left: 0;
+        
+            }
+            100%{
+                left:1620px;
+            }
+        }  
+        .item{
+            width:100px;
+            height: 100px;
+           
+            position: absolute;
+            background-image: url(../images/cross.png);
+                        background-size: cover;
+            animation-name: item4;
+            animation-delay: 7s;
+             animation-fill-mode: forwards; 
+            animation-duration: 2s;
+            animation-play-state: running;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+         left: 1620px; 
+         top: 480px;
+             
+            
+            
+            }
+            @keyframes item4{
+                0%{
+                 
+                }
+                100%{
+                    left: 0px;
+                }
+            }
+            .item1{
+                width:100px;
+                height: 100px;
+                top: 620px;
+              
+                position: absolute;
+                background-image: url(../images/E-Bike_Fahrrad_ebike_Dolce_Vita_by_Canellini_pedalunterstütztes_Fahrrad_elektrisches_Citybike_CTB_Damen_Vintage_Retro_Aluminium_schwarz-removebg-preview.png);
+                background-size: cover;
+                animation-fill-mode: forwards;
+                animation-play-state: running;
+                animation-timing-function: linear;
+                animation-name: item5;
+                animation-delay: 9s;
+                animation-duration: 2s
+            
+                
+                
+                }
+                @keyframes item5{
+                    0%{
+                        left: 0;
+                
+                    }
+                    100%{
+                        left:1620px;
+                    }
+                }
+                .item2{
+                    width:100px;
+                    height: 100px;
+                    top: 760px;
+                    left: 1620px;
+                    position: absolute;
+                    background-image: url(../images/cross.png);             
+                           background-size: cover;
+                           animation-play-state: running;
+                           animation-timing-function: linear;
+                           animation-direction: alternate;
+                    animation-name: item6;
+                    animation-delay: 11s;
+                     animation-fill-mode: forwards; 
+                    animation-duration: 2s
+                    
+                    
+                    }
+                    @keyframes item6{
+                        0%{
+                          
+                        }
+                        100%{
+                            left:0px;
+                        }
+                          }
